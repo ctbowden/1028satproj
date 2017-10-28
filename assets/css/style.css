@@ -1,0 +1,32 @@
+.page-header {
+	background: #000080;
+	font-size: 3em;
+	font-family: "Helvetica";
+	font-style: bold;
+	color: white;
+	margin: 5px;
+	height: 96px;
+}
+#headimg {
+	max-height: 48px;
+	float: left;
+}
+form {
+	width: 800px;
+	margin: 5px;
+}
+label {
+	background: #000080;
+	color: white;
+	width: 100%;
+}
+.input-group {
+	width: 100%;
+	margin: 2px;
+}
+input {
+	width: 100%;
+}
+span{
+	width: 100%;
+}
