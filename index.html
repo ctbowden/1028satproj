@@ -35,18 +35,19 @@
 	<label for="search-term">Search Term</label>
 	
 	<div class="input-group">
-  		<span class="input-group-addon" id="basic-addon1"></span>
+  	<!-- 	<span class="input-group-addon" id="basic-addon1"></span> -->
   		<input type="text" class="form-control" id="search-term" aria-describedby="search-term">
-	</div>
+	
 
 	<label for="number-records">Number of Records to Retrieve:</label>
- 		<input type="text" class="input-group-addon" aria-describedby="number-records">
+ 		<input type="number" aria-describedby="number-records" id="number-records">
 
 	<label for="start-year">Start Year (Optional):</label>
- 		<input type="text" class="input-group-addon" aria-describedby="start-year">
+ 		<input type="number" aria-describedby="start-year" id="start-year">
 
 	<label for="end-year">End Year (Optional):</label>
-  		<input type="text" class="input-group-addon" aria-describedby="end-year">
+  		<input type="number" aria-describedby="end-year" id="end-year">
+  	</div>
 
 	<div class="btn-group" role="group" aria-label="...">
   		<button type="button" class="btn btn-default" id="submit">Search</button>
@@ -56,5 +57,6 @@
 <div id="info"></div>
 
 </div>
+<script type="text/javascript" src="assets/javascript/NYTimesSearch.js"></script>
 </body>
 </html>
